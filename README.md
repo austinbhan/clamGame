@@ -7,6 +7,13 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 ## Making a plan
 
 1) **Make a drawing of your app. Simple "wireframes"** 
+h1, Title Card
+h2, Images
+  Mario Kart, Spongebob, Shellder
+h3, Buttons
+h2, Results
+  Win, Total, Loss
+div, Footer (already included)
 1) **Look at the drawing and name the HTML elements you'll need to realize your vision**
 1) **Look at the drawing and imagine using the app. What _state_ do you need to track?** 
 1) **For each HTML element ask: Why do I need this? (i.e., "we need div to display the results in")** 
