@@ -67,6 +67,16 @@ h2 {
     font-weight: bold;
 }
 
+.picturesButtonsScore {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+
+h3 {
+    display: grid;
+    justify-content: space-between;
+}
+
 .gutter-right {
     margin-right: 20px;
 }
