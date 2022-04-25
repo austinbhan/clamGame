@@ -72,9 +72,8 @@ h2 {
     grid-template-columns: 100px 100px 100px;
 }
 
-h3 {
+.grid {
     display: grid;
-    justify-content: space-between;
 }
 
 .gutter-right {
@@ -100,6 +99,3 @@ footer {
     box-shadow: var(--shadow);
 }
 
-.columnAlign {
-    display: flex;
-}
