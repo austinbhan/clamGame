@@ -23,6 +23,9 @@ let losses = 0;
 // update DOM to reflect the new state
 
 shell1Btn.addEventListener('click', () => {
+    shell1.classList.remove('reveal');
+    shell2.classList.remove('reveal');
+    shell3.classList.remove('reveal');
     const randomNumber = Math.ceil(Math.random() * 3);
     console.log('the random shell is', randomNumber);
     if (randomNumber === 1) {
@@ -41,6 +44,9 @@ shell1Btn.addEventListener('click', () => {
 });
 
 shell2Btn.addEventListener('click', () => {
+    shell1.classList.remove('reveal');
+    shell2.classList.remove('reveal');
+    shell3.classList.remove('reveal');
     const randomNumber = Math.ceil(Math.random() * 3);
     console.log('the random shell is', randomNumber);
     if (randomNumber === 1) {
@@ -59,6 +65,9 @@ shell2Btn.addEventListener('click', () => {
 });
 
 shell3Btn.addEventListener('click', () => {
+    shell1.classList.remove('reveal');
+    shell2.classList.remove('reveal');
+    shell3.classList.remove('reveal');
     const randomNumber = Math.ceil(Math.random() * 3);
     console.log('the random shell is', randomNumber);
     if (randomNumber === 1) {
