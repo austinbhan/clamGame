@@ -7,9 +7,9 @@ const shell1Btn = document.getElementById('shell1Btn');
 const shell2Btn = document.getElementById('shell2Btn');
 const shell3Btn = document.getElementById('Shell3Btn');
 
-const winSpan = document.getElementById('winSpan');
-const totalSpan = document.getElementById('totalSpan');
-const lossSpan = document.getElementById('lossSpan');
+let winSpan = document.getElementById('winSpan');
+let totalSpan = document.getElementById('totalSpan');
+let lossSpan = document.getElementById('lossSpan');
 
 // let state
 
@@ -20,10 +20,59 @@ let losses = 0;
 // set event listeners 
 
 shell1Btn.addEventListener('click', () => {
-  const randomShell = Math.ceil(Math.random() * 3);
-  console.log('the random shell is', randomShell);
+    const randomNumber = Math.ceil(Math.random() * 3);
+    console.log('the random shell is', randomNumber);
+    if (randomNumber === 1) {
+        wins += 1;
+        total += 1;
+        winSpan.textContent = wins;
+        totalSpan.textContent = total;
+    } else {
+        losses += 1;
+        total += 1;
+        lossSpan.textContent = losses;
+        totalSpan.textContent = total;
+    }
 });
 
+shell2Btn.addEventListener('click', () => {
+    const randomNumber = Math.ceil(Math.random() * 3);
+    console.log('the random shell is', randomNumber);
+    if (randomNumber === 1) {
+        wins += 1;
+        total += 1;
+        winSpan.textContent = wins;
+        totalSpan.textContent = total;
+    } else {
+        losses += 1;
+        total += 1;
+        lossSpan.textContent = losses;
+        totalSpan.textContent = total;
+    }
+});
+
+shell3Btn.addEventListener('click', () => {
+    const randomNumber = Math.ceil(Math.random() * 3);
+    console.log('the random shell is', randomNumber);
+    if (randomNumber === 1) {
+        wins += 1;
+        total += 1;
+        winSpan.textContent = wins;
+        totalSpan.textContent = total;
+    } else {
+        losses += 1;
+        total += 1;
+        lossSpan.textContent = losses;
+        totalSpan.textContent = total;
+    }
+});
   // get user input
+
   // use user input to update state 
+
   // update DOM to reflect the new state
+
+winSpan.textContent = wins;
+totalSpan.textContent = total;
+lossSpan.textContent = losses;
+  
