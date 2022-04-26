@@ -77,6 +77,7 @@ h2 {
     grid-template-columns: 200px 200px 200px;
     grid-template-rows: 200px 200px 200px;
     justify-items: center;
+    align-items: center;
 }
 
 .gutter-right {
@@ -102,3 +103,14 @@ footer {
     box-shadow: var(--shadow);
 }
 
+.reveal {
+    transform: translateY(-60px);
+}
+
+.ball {
+    display: block;
+    background: pink;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}

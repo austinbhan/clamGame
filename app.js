@@ -18,6 +18,9 @@ let total = 0;
 let losses = 0;
 
 // set event listeners 
+// get user input
+// use user input to update state 
+// update DOM to reflect the new state
 
 shell1Btn.addEventListener('click', () => {
     const randomNumber = Math.ceil(Math.random() * 3);
@@ -66,11 +69,6 @@ shell3Btn.addEventListener('click', () => {
         totalSpan.textContent = total;
     }
 });
-  // get user input
-
-  // use user input to update state 
-
-  // update DOM to reflect the new state
 
 winSpan.textContent = wins;
 totalSpan.textContent = total;
