@@ -74,6 +74,9 @@ h2 {
 
 .grid {
     display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    justify-items: center;
 }
 
 .gutter-right {
@@ -87,7 +90,7 @@ header img {
 p {
     margin: var(--gutter);
 }
-  
+
 footer {
     position: fixed;
     width: 100%;
