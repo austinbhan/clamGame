@@ -60,16 +60,27 @@ header {
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
-
-
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
 }
 
-.picturesButtonsScore {
-    display: grid;
-    grid-template-columns: 100px 100px 100px;
+.reveal {
+    transform: translateY(-60px);
+}
+
+.pinkCircle {
+    display: block;
+    background: pink;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+#rowOfCircles {
+    display: flex;
+    column-gap: 120px;
+    transform: translateY(180px)
 }
 
 .grid {
@@ -78,6 +89,11 @@ h2 {
     grid-template-rows: 200px 200px 200px;
     justify-items: center;
     align-items: center;
+}
+
+.picturesButtonsScore {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
 }
 
 .gutter-right {
@@ -103,14 +119,3 @@ footer {
     box-shadow: var(--shadow);
 }
 
-.reveal {
-    transform: translateY(-60px);
-}
-
-.ball {
-    display: block;
-    background: pink;
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-}

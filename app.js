@@ -30,11 +30,13 @@ shell1Btn.addEventListener('click', () => {
         total += 1;
         winSpan.textContent = wins;
         totalSpan.textContent = total;
+        shell1.classList.add('reveal');
     } else {
         losses += 1;
         total += 1;
         lossSpan.textContent = losses;
         totalSpan.textContent = total;
+        shell1.classList.remove('reveal');
     }
 });
 
@@ -46,11 +48,13 @@ shell2Btn.addEventListener('click', () => {
         total += 1;
         winSpan.textContent = wins;
         totalSpan.textContent = total;
+        shell2.classList.add('reveal');
     } else {
         losses += 1;
         total += 1;
         lossSpan.textContent = losses;
         totalSpan.textContent = total;
+        shell2.classList.remove('reveal');
     }
 });
 
@@ -62,11 +66,13 @@ shell3Btn.addEventListener('click', () => {
         total += 1;
         winSpan.textContent = wins;
         totalSpan.textContent = total;
+        shell3.classList.add('reveal');
     } else {
         losses += 1;
         total += 1;
         lossSpan.textContent = losses;
         totalSpan.textContent = total;
+        shell3.classList.remove('reveal');
     }
 });
 
