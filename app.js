@@ -88,4 +88,3 @@ shell3Btn.addEventListener('click', () => {
 winSpan.textContent = wins;
 totalSpan.textContent = total;
 lossSpan.textContent = losses;
-  
