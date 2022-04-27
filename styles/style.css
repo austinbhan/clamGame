@@ -60,11 +60,43 @@ header {
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
-
-
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
+}
+
+.reveal {
+    transform: translateY(-100px);
+}
+
+.pinkCircle {
+    display: block;
+    background: pink;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+#rowOfCircles {
+    display: flex;
+    column-gap: 100px;
+    transform: translateY(320px);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    top: 400px;
+    
+}
+
+.picturesButtonsScore {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
 }
 
 .gutter-right {
@@ -78,7 +110,7 @@ header img {
 p {
     margin: var(--gutter);
 }
-  
+
 footer {
     position: fixed;
     width: 100%;
@@ -89,3 +121,4 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
+
